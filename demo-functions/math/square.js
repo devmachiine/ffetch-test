@@ -1,4 +1,4 @@
 (n) => {
   let multiply = ff('./demo-functions/math/multiply.js')
-  return multiply(n, n)
+  return 1 + multiply(n, n)
 }
